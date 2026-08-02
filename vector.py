@@ -50,6 +50,9 @@ class Vector:
     def coords(self):
         return [self.x, self.y]
 
+    def copy(self):
+        return Vector([self.x, self.y])
+
     def round(self):
         return Vector([round(self.x), round(self.y)])
 
